@@ -13,9 +13,15 @@ function App() {
       {/* Main Content */}
       <main className="p-4 flex flex-col items-center min-h-screen">
         <p className="text-gray-400 pb-10">Resource for quick lookup of optimal flamechoke followups</p>
-        <input type="text" placeholder="Search..." className="w-full max-w-md p-2 rounded-lg border border-gray-500 bg-[#2b2b2b] text-white text-lg focus:outline-1.5 focus:outline-[#39287B]" />
+        <input type="text" placeholder="Search..." className="w-full max-w-md p-2 h-14 rounded-lg border border-gray-500 bg-[#2b2b2b] text-white text-lg focus:outline-1.5 focus:outline-[#39287B]" />
+      
+        {/* Footer */}
+        <p className="text-gray-400 pt-10">Made by redux | <a href="https://x.com/Ganonberg" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">Twitter</a> | <a href="https://github.com/rileyglot" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">GitHub</a></p>
+        <p className="text-gray-400 pt-1">HEAVILY inspired by <a href="https://monke.gg/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">Monke.gg</a>, check it out </p>
       </main>
+      
     </div>
+
   )
 }
 
